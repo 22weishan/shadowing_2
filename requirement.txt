@@ -1,6 +1,19 @@
-streamlit
-pydub
-numpy
-openai-whisper
-torch
-ffmpeg
+# Streamlit 框架
+streamlit==1.30.0
+
+# Whisper 模型
+openai-whisper==20250625
+
+# PyTorch（CPU版，如果你有GPU需要按官方文档选择对应CUDA版本）
+torch==2.9.1
+
+# 音频处理
+pydub==0.25.1
+numpy==1.26.0
+
+# 可选依赖（Whisper 会用到）
+numba==0.63.1
+tiktoken==0.12.0
+more-itertools==10.8.0
+regex==2025.11.3
+requests==2.32.5
