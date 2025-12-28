@@ -4,3 +4,5 @@ numpy>=1.24.0
 streamlit
 openai-whisper
 torch
+whisper-openai>=20231106
+ffmpeg-python>=0.2.0
